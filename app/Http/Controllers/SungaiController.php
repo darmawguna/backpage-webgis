@@ -15,7 +15,7 @@ class SungaiController extends Controller
      */
     public function index()
     {
-        return view('sungai');
+        return view('backpage.sungai');
     }
 
     /**
