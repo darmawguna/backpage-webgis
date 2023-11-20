@@ -15,6 +15,6 @@ use App\Http\Controllers\SungaiController;
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('backpage.index');
 })->name('home');
 Route::get('/sungai',[SungaiController::class, 'index'])->name('sungai.index');
