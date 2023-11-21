@@ -18,7 +18,7 @@
       <!-- link -->
       <a href="{{ route('home') }}" class="mb-4 capitalize font-medium text-sm border p-3 {{ request()->routeIs('home') ? 'bg-blue-500 text-white rounded-lg hover:text-black-600' : ''  }}">
        <i class="fa-solid fa-chart-pie"></i>                
-        Analytics dashboard
+         Dashboard
       </a>
       <!-- end link -->
 
