@@ -17,14 +17,14 @@
 
       <!-- link -->
       <a href="{{ route('home') }}" class="mb-4 capitalize font-medium text-sm border p-3 {{ request()->routeIs('home') ? 'bg-blue-500 text-white rounded-lg hover:text-black-600' : ''  }}">
-        <i class="fad fa-chart-pie text-xs mr-2"></i>                
+       <i class="fa-solid fa-chart-pie"></i>                
         Analytics dashboard
       </a>
       <!-- end link -->
 
       <!-- link -->
-      <a href="{{ route('sungai.index') }}" class="mb-4 capitalize font-medium text-sm border p-3 {{ request()->routeIs('sungai.index') ? 'bg-blue-500 text-white rounded-lg hover:text-black-600' : ''  }}" >
-        <i class="fad fa-water text-xs mr-2"></i>
+      <a href="/water" class="mb-4 capitalize font-medium text-sm border p-3 {{ request()->routeIs('water.index') ? 'bg-blue-500 text-white rounded-lg hover:text-black-600' : ''  }}" >
+       <i class="fa-solid fa-water"></i>
         Sungai
       </a>
       <!-- end link -->

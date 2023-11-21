@@ -21,7 +21,7 @@
                         <label for="sungai" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Nama
                             Sungai</label>
                         <input type="text" id="sungai"
-                            class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-3 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light"
+                            class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light"
                             placeholder="nama Sungai.." required>
                     </div>
                     {{-- dropdown tipe --}}
@@ -29,7 +29,7 @@
                         <label for="tipe" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Pilih
                             tipe</label>
                         <select name="tipe" id="tipe"
-                            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-3 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                             {{-- @foreach ($categories as $category)
                                 <option value="{{ $category->kategori_id }}">{{ $category->kategori }}</option>
                             @endforeach --}}
@@ -39,14 +39,14 @@
                         <label for="kordinat"
                             class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Kordinat</label>
                         <input type="text" id="kordinat"
-                            class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-3 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light"
+                            class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light"
                             placeholder="LatLng.." required>
                     </div>
                     <div class="mb-6">
                         <label for="luas"
                             class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Luas</label>
                         <input type="text" id="luas"
-                            class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-3 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light"
+                            class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light"
                             placeholder="Luas.." required>
                     </div>
 
@@ -60,13 +60,13 @@
                             
                         </div>
                     </div> --}}
-                    <div class="mb-6">
+                    {{-- <div class="mb-6">
                         <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
                             for="">Masukan Foto</label>
                         <input
                             class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-3 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light"
                             type="file" name="photo" id="photo" required>
-                    </div>
+                    </div> --}}
 
 
                     <button type="submit"

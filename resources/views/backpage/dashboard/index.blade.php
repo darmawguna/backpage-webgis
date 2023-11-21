@@ -3,7 +3,6 @@
 
 @include('backpage.base.navbar')
 
-
 <!-- strat wrapper -->
 <div class="h-screen flex flex-row flex-wrap">
   

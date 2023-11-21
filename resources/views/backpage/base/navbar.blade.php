@@ -64,25 +64,17 @@
             </a>     
             <!-- end item -->
 
-            <!-- item -->
-            <a class="px-4 py-2 block capitalize font-medium text-sm tracking-wide bg-white hover:bg-gray-200 hover:text-gray-900 transition-all duration-300 ease-in-out" href="#">
-              <i class="fad fa-badge-check text-xs mr-1"></i> 
-              tasks
-            </a>     
-            <!-- end item -->
+           
 
-            <!-- item -->
-            <a class="px-4 py-2 block capitalize font-medium text-sm tracking-wide bg-white hover:bg-gray-200 hover:text-gray-900 transition-all duration-300 ease-in-out" href="#">
-              <i class="fad fa-comment-alt-dots text-xs mr-1"></i> 
-              chats
-            </a>     
+           
             <!-- end item -->
 
             <hr>
 
             <!-- item -->
             <a class="px-4 py-2 block capitalize font-medium text-sm tracking-wide bg-white hover:bg-gray-200 hover:text-gray-900 transition-all duration-300 ease-in-out" href="#">
-              <i class="fad fa-user-times text-xs mr-1"></i> 
+              
+              <i class="fa-solid fa-user text-xs mr-1"></i>
               log out
             </a>     
             <!-- end item -->
